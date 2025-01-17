@@ -1,3 +1,6 @@
+import os
+os.system('pip install requests')
+
 import requests
 import time
 import webbrowser
@@ -19,8 +22,7 @@ def show_banner():
     banner = """
 ╔══════════════════════════════════════╗
 ║          IMEI TRACKER v2.0           ║
-║      Created for Termux Users        ║
-╚══════════════════════════════════════╝
+║      Created for Termux Users        ╚══════════════════════════════════════╝
     """
     print("\033[94m" + banner + "\033[0m")
 
